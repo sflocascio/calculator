@@ -1,6 +1,16 @@
 body {
-    background-color: lightblue;
-    font-size: 20px
+    /* background-color: lightblue; */
+    max-width: 1000px;
+    margin:0 auto;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width:auto;
+    padding:10px;
+    border-radius: 40px;
+    /* padding: 10px;
+    margin-left: 80px;
+    margin-right: 150px; */
 }
 
 h1 {
@@ -17,3 +27,25 @@ button {
     color: navy;
     
 }
+
+.border{
+    border: 5px solid black;
+    padding: 10px
+    margin-left: 80px;
+    margin-right: 150px;
+    /* margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px; */
+ }
+
+/* .calculator {
+    text-align: center;
+    width: 300px;
+    height: 350px;
+    border-radius: 2px solid black;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    padding: 5px;
+  } */

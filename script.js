@@ -3,14 +3,14 @@
 
 // CALCULATE
 document.getElementById("equals").addEventListener('click', function() {
-    let total = document.getElementById("output").innerHTML;
+    let total = document.getElementById("output").innerText;
     let calculate = eval(total)
     document.getElementById("output").innerText = calculate
 })
 
 // CLEAR
 document.getElementById("clear").addEventListener('click', function() {
-    document.getElementById("output").innerText = " "
+    document.getElementById("output").innerText = "0"
 })
 
 
